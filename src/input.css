@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+.contain.change .price{
+    background-color: #c02244;
+}
+
+.contain.change .card-top {
+    background: #d35246;
+}
+
+.contain.change .shoe-1 {
+    transform: translateX(-50rem) rotateZ(45deg);
+}
+
+.contain.change .shoe-2 {
+transform: translateX(-40rem) rotateZ(-45deg);
+}

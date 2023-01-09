@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="src/input.css">
     <link rel="stylesheet" href="dist/output.css">
     <script src="https://kit.fontawesome.com/54e86b48e4.js" crossorigin="anonymous"></script>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <section class=" flex justify-center items-center  bg-[#262626] w-full h-[100vh]">
+    <section class="contain flex justify-center items-center  bg-[#262626] w-full h-[100vh]">
 
         <div class="card-wrapper w-[45rem] h-[40rem] grid place-items-center overflow-hidden px-20">
 
@@ -25,7 +25,7 @@
                     <div>
                         <img src="dist/images/logo.png" alt="logo" srcset="" class="max-w-[50%] mb-8">
 
-                        <h1 class="font-semibold tracking-[0.1rem] mb-4 text-xl">AIR STRUCTURE</h1>
+                        <h1 class="font-semibold tracking-[0.1rem] mb-4 text-2xl">AIR STRUCTURE</h1>
 
                         <p class="tracking-[0.1rem] text-[14px] mr-6">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
@@ -33,11 +33,11 @@
                             eligendi illo officiis!
                         </p>
                     </div>
-                    <img src="dist/images/shoe1.png" alt="" srcset="" class="absolute top-[-1.0rem] right-[-7rem] max-w-[90%] ">
-                    <img src="dist/images/shoe2.png" alt="" srcset="" class="absolute top-[-10rem] right-[-45rem] max-w-[90%]">
+                    <img src="dist/images/shoe1.png" alt="" srcset="" class="shoe-1 absolute top-[-1.0rem] right-[-7rem] max-w-[90%] ">
+                    <img src="dist/images/shoe2.png" alt="" srcset="" class="shoe-2 absolute top-[-10rem] right-[-45rem] max-w-[90%]">
                 </div>
 
-                <div class="px-8 pt-4 ">
+                <div class="px-8 pt-4 relative card-bottom">
                     <div class=" mb-4">
                         <span class="flex gap-6 items-center mb-4">
                             <h1 class="font-semibold tracking-[0.1rem] text-xl">AIR STRUCTURE</h1>
@@ -59,27 +59,27 @@
                         </h2>
 
                         <div class="flex gap gap-8">
-                            <span>7</span>
-                            <span>8</span>
-                            <span>9</span>
-                            <span>10</span>
-                            <span>11</span>
+                            <span class="active">7</span>
+                            <span class="active">8</span>
+                            <span class="active">9</span>
+                            <span class="active">10</span>
+                            <span class="active">11</span>
                         </div>
                     </div>
 
-                    <div>
-                        <h2 class="font-bold">
+                    <div class="">
+                        <h2 class="font-bold pb-2">
                             COLOR
                         </h2>
 
                         <div class="colors flex gap-5">
-                            <div class="color-1 w-[1.5rem] h-[1.5rem] rounded-[50%] cursor-pointer bg-[#1c477a]"></div>
-                            <div class="color-2 w-[1.5rem] h-[1.5rem] rounded-[50%] cursor-pointer bg-[#c02244]"></div>
+                            <div class="color-1 w-[1.5rem] h-[1.5rem] rounded-[50%] cursor-pointer bg-[#1c477a] shadow-sm shadow-black"></div>
+                            <div class="color-2 w-[1.5rem] h-[1.5rem] rounded-[50%] cursor-pointer bg-[#c02244] shadow-sm shadow-black"></div>
                         </div>
                     </div>
 
-                    <div class="bg-[#1c477a] ">
-                        <h2 class="">NGN   <span class="font-medium">40,000.00</span></h2>
+                    <div class="price absolute right-[-4%] bottom-[-3%] text-white ">
+                        <h2 class="bg-[#1c477a] py-1 px-1 ">NGN   <span class="font-medium">40,000.00</span></h2>
                     </div>
                 </div>
 
