@@ -545,6 +545,14 @@ video {
   bottom: -3%;
 }
 
+.right-\[-rem\] {
+  right: -rem;
+}
+
+.right-\[-6rem\] {
+  right: -6rem;
+}
+
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
@@ -673,6 +681,10 @@ video {
 
 .max-w-\[80\%\] {
   max-width: 80%;
+}
+
+.max-w-\[100\%\] {
+  max-width: 100%;
 }
 
 .cursor-pointer {
@@ -902,6 +914,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:right-\[-7rem\] {
+    right: -7rem;
+  }
+
   .md\:mr-6 {
     margin-right: 1.5rem;
   }
