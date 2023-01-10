@@ -2,12 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-.contain.change .price{
+.contain.change .price>h2{
     background-color: #c02244;
 }
 
 .contain.change .card-top {
     background: #d35246;
+    transition: ease-in-out 0.3s;
 }
 
 .contain.change .shoe-1 {
