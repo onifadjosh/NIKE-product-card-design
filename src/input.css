@@ -18,3 +18,9 @@
 .contain.change .shoe-2 {
 transform: translateX(-40rem) rotateZ(-45deg);
 }
+
+.size span:nth-child(3){
+    background: #25d390;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
