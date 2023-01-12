@@ -728,6 +728,10 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.font-\[Quicksand\] {
+  font-family: Quicksand;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -814,7 +818,7 @@ video {
 
 .size span:nth-child(3){
   background: #25d390;
-  border-radius: 50%;
+  border-radius: 55%;
   padding: 5px 10px;
 }
 

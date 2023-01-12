@@ -21,6 +21,6 @@ transform: translateX(-40rem) rotateZ(-45deg);
 
 .size span:nth-child(3){
     background: #25d390;
-    border-radius: 50%;
+    border-radius: 55%;
     padding: 5px 10px;
 }
